@@ -132,7 +132,7 @@ training_abilities:
 
 weapon_training:
   Brawling: ''
-  Small Edged: steel rapier
+  Small Edged: rapier
 priority_weapons:
   - Brawling
   - Small Edged
