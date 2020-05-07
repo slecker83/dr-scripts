@@ -88,7 +88,7 @@ weapon_training:
   #Light Thrown: leather handbook
   #Heavy Thrown: diamondique hhr'ata
   #Bow: nisha shortbow
-  Small Edged: dueling iltesh
+  Small Edged: scimitar
   #Small Blunt: belaying pin
   #Slings: firesilk sling
   #Main hand only
@@ -113,7 +113,6 @@ aiming_trainables:
 #- Small Edged
 #- Light Thrown
 #- Heavy Thrown
-- Small Blunt
 - Staves
 
 #use true for gouge/jab and lower rt
@@ -561,7 +560,10 @@ gear:
   :name: nightstick
   :is_leather: false
   :hinders_lockpicking: false
-
+- :adjective: steel
+  :name: scimitar
+  :is_leather: false
+  :hinders_lockpicking: false
 
 #anything that is to be worn must be listed below - armor or weapons
 gear_sets:
