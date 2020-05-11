@@ -103,9 +103,16 @@ buff_spells:
     mana: 10
     cambrinth:
     -0
+  Will of Winter:
+    abbrev: WILL
+    recast: 30
+    mana: 150
+    ritual: true
+    focus: corked glass bottle
 dance_skill: Small Edged
 training_abilities:
   Tactics: 30
+  Recall: 1500
   Hunt: 80
   Perc: 120
   Scream: 15
@@ -127,6 +134,7 @@ crossing_training:
 - Perception
 - Scholarship
 - Performance
+- Bardic Lore
 exp_timers:
   Attunement: 130
   Utility: 90
@@ -136,6 +144,7 @@ training_spells:
     cyclic: true
   Augmentation:
     abbrev: ECRY
+    
 safe_room: 984
 cambrinth: cambrinth armband
 cambrinth_cap: 10
