@@ -9,6 +9,7 @@
 # Eventually you will need to train 1 more Magic to circle (for a total of 5)
 # However, you will probably end up training them all since they each have very useful spells
 # The other Magic skills are: Warding, Targeted Magic, and Debilitation
+hometown: Crossing
 
 # Hunting settings
 training_manager_hunting_priority: true
