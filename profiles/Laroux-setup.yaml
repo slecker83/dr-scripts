@@ -1,0 +1,141 @@
+---
+# https://elanthipedia.play.net/Bard#Circle_Requirements
+# 4 Magics: Attunement, Arcana, Utility, Augmentation
+# 3 Weapons (only 2 are needed to circle): Brawling, Heavy Thrown, Large Blunt
+# 2 Armors (only 1 is needed to circle): Light Armor, Shield Usage
+# 4 Survivals: Perception, Outdoorsmanship, Athletics, Stealth
+# 3 Lores: Appraisal, Tactics, Scholarship (Does not include Performance or Bardic Lore)
+
+# Eventually you will need to train 1 more Magic to circle (for a total of 5)
+# However, you will probably end up training them all since they each have very useful spells
+# The other Magic skills are: Warding, Targeted Magic, and Debilitation
+
+# Hunting settings
+training_manager_hunting_priority: true
+training_manager_priority_skills:
+- Small Edged
+- Light Thrown
+- Brawling
+- Chain Armor
+hunting_info:
+- :zone: #####
+  stop_on:
+  - Small Edged
+  - Brawling
+  - Light Thrown
+
+# Gear settings
+gear:
+- :adjective: chain
+   :name: greaves
+   :is_leather: false
+   :hinders_lockpicking: false
+   :is_worn: true
+- :adjective: chain
+  :name: balaclava
+  :is_leather: false
+  :hinders_lockpicking: true
+  :is_worn: true
+- :adjective: chain
+  :name: shirt
+  :is_leather: false
+  :hinders_lockpicking: false
+  :is_worn: true
+- :adjective: mail
+  :name: gloves
+  :is_leather: false
+  :hinders_lockpicking: true
+  :is_worn: true
+- :adjective: target
+  :name: shield
+  :is_leather: false
+  :hinders_lockpicking: true
+  :is_worn: true
+- :adjective: parry
+  :name: stick
+  :is_leather: false
+  :hinders_lockpicking: false
+  :is_worn: true
+- :adjective: demonbone
+  :name: handwrap
+  :is_leather: false
+  :hinders_lockpicking: true
+  :is_worn: true
+- :adjective: elbow
+  :name: spikes
+  :is_leather: false
+  :hinders_lockpicking: false
+  :is_worn: true
+- :adjective: steel
+  :name: spike
+  :is_leather: false
+  :hinders_lockpicking: false
+  :is_worn: false
+gear_sets:
+  standard:
+  - mail gloves
+  - chain balaclava
+  - chain greaves
+  - chain shirt
+  - target shield
+  - parry stick
+  - demonbone handwraps
+  - elbow spikes
+
+# Combat settings
+buff_spells:
+  Eillie's Cry:
+    abbrev: ECRY
+    recast: 1
+    mana: 1
+    cambrinth:
+    - 1
+  Rage of Clans:
+    abbrev: RAGE
+    recast: 1
+    mana: 10
+    cambrinth:
+    -0
+  Redeemer's Pride:
+    abbrev: REPR
+    recast: 1
+    mana: 10
+    cambrinth:
+    -0
+dance_skill: Small Edged
+training_abilities:
+  Tactics: 30
+  Hunt: 80
+  Perc: 120
+  Scream: 15
+weapon_training:
+  Brawling: ''
+  Light Thrown: steel spike
+  Small Edged: steel spike
+priority_weapons:
+  - Brawling
+# Non-combat settings
+crossing_training:
+- Appraisal
+- Athletics
+- Augmentation
+- Attunement
+- Utility
+- Outdoorsmanship
+- Perception
+- Scholarship
+- Performance
+exp_timers:
+  Attunement: 130
+  Utility: 90
+training_spells:
+  Utility:
+    abbrev: CARE
+    cyclic: true
+  Augmentation:
+    abbrev: ECRY
+safe_room: 984
+cambrinth: cambrinth armband
+cambrinth_cap: 10
+favor_goal: 10
+favor_god: Faenella
