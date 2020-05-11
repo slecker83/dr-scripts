@@ -16,6 +16,7 @@ training_manager_priority_skills:
 - Small Edged
 - Light Thrown
 - Brawling
+- Offhand
 - Chain Armor
 hunting_info:
 - :zone: #####
@@ -87,7 +88,7 @@ buff_spells:
   Eillie's Cry:
     abbrev: ECRY
     recast: 1
-    mana: 1
+    mana: 10
     cambrinth:
     - 1
   Rage of Clans:
@@ -112,6 +113,7 @@ weapon_training:
   Brawling: ''
   Light Thrown: steel spike
   Small Edged: steel spike
+  Offhand: steel spike
 priority_weapons:
   - Brawling
 # Non-combat settings
